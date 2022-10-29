@@ -46,7 +46,7 @@ Student Number: A022144R
 2. Kill broker 3
 3. Describe cluster again
    1. `docker run --net=host --rm confluentinc/cp-kafka:latest kafka-topics --describe --topic topic1 --bootstrap-server localhost:29092`
-   2. Broker 3 is killed and the other 2 nodes take over as the leader for all 3 partitions.
+   2. Broker 3 is killed and broker 1 takes over as the leader for partition 1.
    3. In-sync replicas are left with broker 1 and 2 as 3 is dropped from the cluster.
 
 ![](./images/after.PNG)
