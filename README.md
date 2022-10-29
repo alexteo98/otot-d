@@ -2,6 +2,8 @@
 Name: Teo Yick Fong Alex
 <br>
 Student Number: A022144R
+<br>
+Repo link: [https://github.com/alexteo98/otot-d](https://github.com/alexteo98/otot-d)
 
 ## Task D-1
 1. Create a docker compose project containing 6 docker containers, 3 for kafka brokers and 3 for zookeeper nodes
